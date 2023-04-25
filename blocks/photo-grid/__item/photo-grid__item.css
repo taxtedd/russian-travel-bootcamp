@@ -1,0 +1,27 @@
+.photo-grid__item {
+  width: calc(100vw*(284/1280));
+  height: calc(100vw*(213/1280));
+  /* width: 100%;
+  object-fit: contain; */
+}
+
+@media screen and (max-width: 1279px) {
+  .photo-grid__item {
+    width: calc(100vw*(300/1024));
+    height: calc(100vw*(225/1024));
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo-grid__item {
+    width: calc(100vw*(352/768));
+    height: calc(100vw*(264/768));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo-grid__item {
+    width: calc(100vw*(288/320));
+    height: calc(100vw*(216/320));
+  }
+}

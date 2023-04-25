@@ -1,0 +1,26 @@
+.cover {
+  height: calc(100vw*(740/1280));
+  width: calc(100vw*(1184/1280));
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 32px;
+  position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 100%;
+    height: calc(100vw*(640/1024));
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    row-gap: 16px;
+  }
+}
