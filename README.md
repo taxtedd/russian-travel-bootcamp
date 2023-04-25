@@ -6,3 +6,4 @@
 * Использован git для хранения изменений
 * Картинки
 ## Ссылка на проект
+https://taxtedd.github.io/russian-travel-bootcamp/
