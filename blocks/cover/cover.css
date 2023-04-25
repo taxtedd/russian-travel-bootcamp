@@ -1,7 +1,7 @@
 .cover {
   height: calc(100vw*(740/1280));
   width: calc(100vw*(1184/1280));
-  background-image: url(../../../images/cover-trains.jpg);
+  background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
