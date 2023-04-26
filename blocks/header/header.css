@@ -1,7 +1,6 @@
 .header {
   padding-top: 28px;
-  max-height: 52px;
-  width: calc(100vw*(1184/1280));
+  min-width: calc(100vw*(1184/1280));
   display:  flex;
   flex-direction: row;
   justify-content: space-between;
@@ -9,19 +8,19 @@
 
 @media screen and (max-width: 1279px) {
   .header {
-    width: calc(100vw*(928/1024));
+    min-width: calc(100vw*(928/1024));
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    width: calc(100vw*(720/768));
+    min-width: calc(100vw*(720/768));
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    width: calc(100vw*(288/320));
+    min-width: calc(100vw*(288/320));
     padding-top: 16px;
   }
 }

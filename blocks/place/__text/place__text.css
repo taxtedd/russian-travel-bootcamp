@@ -11,6 +11,6 @@
   .place__text {
     grid-row: 4/5;
     grid-column: 1;
-    width: calc(100vw*(288/320));
+    max-width: calc(100vw*(288/320));
   }
 }
